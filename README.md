@@ -19,9 +19,9 @@ Feel free to use and modify the code to your needs. However, keep in mind that i
 
 ## REQUESTING GRIB
 
-To request a GRIB-file, send a message to the dedicated Gmail adress via the INMARSAT ISatPhone with specified weather model, location range, grid size, times and weather paramters. Here's an example of such a request:
+To request a GRIB-file, send a message to the dedicated Gmail adress via the INMARSAT ISatPhone with the word "send ", the specified weather model, location range, grid size, times and weather paramters. Here's an example of such a request:
 
-```ecmwf:24n,34n,72w,60w|8,8|12,48|wind,press```
+```send ecmwf:24n,34n,72w,60w|8,8|12,48|wind,press```
 
 This translates to a request for data based on the ECMWF model, covering latitudes from 24N to 34N and longitudes from 72W to 60W, sampled at 8-degree intervals. The forecast times are 12 and 48 hours, and the requested weather parameters are wind and pressure.
 
@@ -63,7 +63,7 @@ Utilising this method, you can acquire wind and pressure data for the Atlantic c
 
 **Request:**
 
-```ecmwf:44n,10n,75w,10w|8,8|12,48|wind,press```
+```send ecmwf:44n,10n,75w,10w|8,8|12,48|wind,press```
 
 
 **Result (in GRIB viewer app):**
