@@ -1,6 +1,6 @@
 # MarineGRIB-ISatPhone-Service
 
-Before setting out on an ocean sailing voyage, you need a solution for accessing crucial weather data while being out on the open sea without internet connection. With this handy tool, you can now pull GRIB files on-demand using the INMARSAT ISatPhone device, which turned out to be a cost-effective workaround to pricier options like IridiumGo. In fact, INMARSAT does not charge for received SMS messages. The system's entire process is illustrated in the following diagram:
+Before setting out on an ocean sailing voyage, you need a solution for accessing crucial weather data while being out on the open sea without internet connection. With this handy tool, you can now pull GRIB files on-demand using the INMARSAT ISatPhone device, which turned out to be a cost-effective workaround to pricier options like IridiumGo. In fact, INMARSAT does not charge for received SMS messages (fair use policy applies). The system's entire process is illustrated in the following diagram:
 ![Workflow](images/workflow_diagram.jpg)
 
 Credit goes to Rhycus for the initial idea behind this workflow (https://github.com/rhycus/GRIB-via-inReach) developed for the Garmin InReach device.
